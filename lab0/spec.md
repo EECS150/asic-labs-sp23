@@ -141,7 +141,7 @@ For 1-6 below, submit the command/keystrokes needed to generate the desired resu
 2. What directory is `git` installed in?
 3. Show the hidden files in your lab directory (the one you cloned from `/home/ff/eecs151/labs/lab1`
 4. What version of Vim is installed? Describe how you figured this out.
-5. (optional) Make a new directory called `scratch` within `/home/tmp/<your-eecs-username>`. Copy all the files in this lab recursively to the new directory and then delete them all recursively.
+5. (optional) Make a new directory called `backup` within `/home/tmp/<your-eecs-username>`. Copy all the files in this lab directory to the new `backup` directory and then delete all the copies in the new directory.
 6. Run `ping www.google.com`, suspend it, then kill the process. Then run it in the background, report its PID, then kill the process.
 7. Run `top` and report the average CPU load, the highest CPU job, and the amount of memory used (just report the results for this question; you don't need to supply the command/how you got it).
 
