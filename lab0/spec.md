@@ -1,4 +1,4 @@
-# EECS 151/251A ASIC Lab 1: Getting Around the Compute Environment
+# EECS 151/251A ASIC Lab 0: Getting Around the Compute Environment
 <p align="center">
 Prof. John Wawrzynek
 </p>
