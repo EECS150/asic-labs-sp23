@@ -128,7 +128,7 @@ echo $PATH
 To be able to access the CAD tools, you will need to append to their location to the `$PATH` variable:
 
 ```shell
-source /home/ff/eecs151/tutorials/eecs151.bashrc
+source /home/ff/eecs151/asic/eecs151.bashrc
 echo $PATH
 which innovus
 ```
