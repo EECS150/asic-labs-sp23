@@ -42,6 +42,9 @@ You can use any lab machine, but our lab machines aren’t very powerful; if eve
 
 Next, note your instructional class acccount name - the one that looks like `eecs151-YYY`, for example `eecs151-abc`. This is the account you created at the start of this lab.
 
+#### VPN
+If you're not using eduroam, you need to use a global protect VPN to get over the instructional machine's firewall. You can follow the guide here on: https://software.berkeley.edu/bsecure-remote-access-vpn
+
 #### SSH: Linux, BSD, MacOS
 
 SSH is the de facto remote terminal tool for Linux and BSD systems (which includes macOS). It lets you login to a text console from anywhere (as long as you have network connectivity). SSH also comes as a standard utility in almost all Linux and BSD systems.
