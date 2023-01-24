@@ -315,7 +315,7 @@ When asked to write Verilog, include the module definition. There are multiple c
 
 You may find it helpful to actually write and simulate each question to get practice writing Verilog and testbenches, as well as interpreting simulation results and waveforms.
 
-**a.)** Using the provided Verilog code and input waveforms, submit the equivalent logic gate schematic and draw/sketch the output waveforms.
+**a.)** (Optional) Using the provided Verilog code and input waveforms, submit the equivalent logic gate schematic and draw/sketch the output waveforms.
 Note that the initial conditions of X and Z are given.
 
 ```verilog
