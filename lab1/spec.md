@@ -335,6 +335,12 @@ endmodule
 <img src="./figs/q1_a.png" width="300" />
 </p>
 
+Because you have no covered sequential logic in the lecture yet, the answer to this question is provided to you.
+
+<p align="center">
+<img src="./figs/q1_a_ans.png" width="300" />
+</p>
+
 **b.)** Using the schematic below and input waveforms, submit the equivalent Verilog code and a sketch of output waveforms.
 
 <p align="center">
