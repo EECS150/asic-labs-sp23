@@ -13,7 +13,7 @@ College of Engineering, University of California, Berkeley
 </p>
 
 ## Critical
-Before you proceed to the rest of the lab, please rename your lab1 folder to lab0, and lab2 folder to lab1, to reflect the changes we had in repository and lab naming. If you do not do so, you might fail cloning the content for this lab or lose your work for lab1. 
+(Remove this section in fa23) Before you proceed to the rest of the lab, please rename your lab1 folder to lab0, and lab2 folder to lab1, to reflect the changes we had in repository and lab naming. If you do not do so, you might fail cloning the content for this lab or lose your work for lab1. 
 
 ```shell
 mv lab1 lab0
