@@ -107,7 +107,7 @@ To begin, get the lab files by typing the following commands:
 
 ```shell
 cd /home/tmp/<your-eecs-username>
-git clone /home/ff/eecs151/labs/lab1
+git clone /home/ff/eecs151/labs/lab0
 cd lab1
 ```
 

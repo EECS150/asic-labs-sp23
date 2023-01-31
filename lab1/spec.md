@@ -27,7 +27,7 @@ To begin this lab, get the project files (again, we recommend working in the `/h
 
 ```shell
 cd /home/tmp/<your-eecs-username>/
-git clone /home/ff/eecs151/labs/lab2
+git clone /home/ff/eecs151/labs/lab1
 cd lab2
 ```
 
