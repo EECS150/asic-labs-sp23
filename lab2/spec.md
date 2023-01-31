@@ -55,7 +55,7 @@ environment variables in your system such as where to find the CAD programs or l
 
 ## Synthesis Environment
 To perform synthesis, we will be using Cadence Genus. However, we will not be interfacing with
-Genus directly, we will rather use Hammer. Just like in lab 2, we have set up the basic Hammer
+Genus directly, we will rather use Hammer. Just like in lab 1, we have set up the basic Hammer
 flow for your lab exercises using Makefile.
 
 In this lab repository, you will see two sets of input files for Hammer. The first set of files are
