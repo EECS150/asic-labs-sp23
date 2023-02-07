@@ -24,7 +24,7 @@ source /home/ff/eecs151/asic/eecs151.bashrc
 ```
 
 ```shell
-git clone /home/ff/eecs151/labs/lab3.git
+git clone /home/ff/eecs151/labs/lab3
 cd lab3
 ```
 
