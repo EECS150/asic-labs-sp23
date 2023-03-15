@@ -420,7 +420,7 @@ everything, you will see this at the end a long design process, which is always 
 
 ---
 ### Question 4: DRC and LVS
-a) Scroll to the bottom of the DRC result summary report in `build/drc-rundir/drc_results`.
+a) Scroll to the bottom of the DRC result summary report in `build/drc-rundir/drc_report`.
 **For the cell `dot_product` (or whatever you named your single-SRAM vector dot product), how many total violation results do you have? How many rules did you violate?** 
 Note: the result count is in the format `hierarchical_count` (`flat_count`), which would disagree if you have many
 instances of a submodule in the design. 
@@ -442,7 +442,7 @@ Show the DRC and LVS results, and explain the meaning of what you see.
 
 ## Lab Deliverables
 
-### Lab Due: 11:59 PM, 1 week after your registered lab section. (Oct. 31 for lab section 1)
+### Lab Due: 11:59 PM, 1 week after your registered lab section. (14th March, 2023)
 
 - Submit a written report with all 3 questions (4 if doing optional) answered to Gradescope
 - Checkoff with an ASIC lab TA
