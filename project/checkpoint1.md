@@ -211,7 +211,7 @@ If not, you will need to debug your module until all test from the test vector f
 ---
 
 ###  8. Checkpoint #1: Simple test program
-*Checkoff due: March 20th (Tuesday), 2023*
+*Checkoff due: 2:00PM, March 21th (Tuesday), 2023*
 
 
 Congratulations! You’ve started the design of your datapath by drawing a pipeline diagram, and written and thoroughly tested a key component in your processor. You should now be well-versed in testing Verilog modules. Please answer the following questions to be checked off by a TA:

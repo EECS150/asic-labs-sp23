@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Checkpoint 2
 <p align="center">
-Prof. Sophia Shao
+Prof. John Wawrzynek
 </p>
 <p align="center">
-TAs (ASIC): Erik Anderson, Roger Hsiao, Hansung Kim, Richard Yan
+TA (ASIC): Chengyi Lux Zhang
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -41,15 +41,25 @@ Your job is to implement the core of the 3-stage RISC-V CPU.
 #### 2.1 Reset
 Your CPU will have an input reset signal that the testbench toggles. Once out of reset, 
 your CPU should start at PC address `0x2000` (defined as `PC_RESET` in `src/const.vh`)
-and begin executing instructions.
+and begin executing instructions. You may change this reset address to match your design.
 
 #### 2.2 Misaligned Addresses
 According to the RISC-V ISA spec, reads and writes to memory addresses not aligned to a 32-bit word boundary (or 16-bit for halfword) should cause an exception. In this project, for the purpose of simplicity, we ignore the misaligned bits (i.e. set them to zero), which is done in `Memory151.v` by only using address bits `31:2`. 
 
+#### 2.3 Header Files
+The hammer infrastructure used has been updated to support including `.vh` files. This would require you to put them on top of the `simVerilogSrc` list, and use `MACRO in your verilog files instead of MACRO. 
+
+#### 2.4 Explicit Flip-flops
+Just like all other verilogs you write in this course, you must use the Registers defined in `EECS151.v` instead of using the non-blocking assignment
+```
+always @(posedge clk)
+    q <= d
+```
+structure. This helps you to prevent unintentionally inferred flip flops that might disrupt the normal functionality after synthesis.
 
 ### 3. File Structure
 Implement the datapath and control logic for your RISC-V processor in the file `Riscv151.v`. Make
-sure that the inputs and outputs remain the same, since this module connects to the memory system
+sure that the inputs and outputs ports declaration remain the same, since this module connects to the memory system
 for system-level testing. If you look at `riscv_test_harness.v` you can see a testbench that
 is provided. Target this testbench in your `sim-rtl.yml` file by changing the `tb_name` key to
 `rocketTestHarness`.
@@ -92,7 +102,7 @@ vim addi.hex
 
 
 ### 6. Checkpoint 2 Deliverables
-*Checkoff due: Nov 18 (Friday), 2022*
+*Checkoff due: 2:00PM, April 10th (Tuesday), 2023*
 
 Congratulations! You’ve started the design of your datapath by implementing your pipeline diagram, and written and thoroughly tested a key component in your processor and should now be well-versed in testing Verilog modules. Please answer the following questions to be checked off by a TA.
 
@@ -121,3 +131,4 @@ Modified By:
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
 - Dima Nikiforov (2022)
+- Chengyi Lux Zhang (2023)
