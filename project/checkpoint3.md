@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Checkpoint 3
 <p align="center">
-Prof. Sophia Shao
+Prof. John Wawrzynek
 </p>
 <p align="center">
-TAs (ASIC): Erik Anderson, Roger Hsiao, Hansung Kim, Richard Yan
+TA (ASIC): Chengyi Lux Zhang
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -48,14 +48,13 @@ EECS151 students should build a direct-mapped cache, and EECS251 students are re
 2. is set-associative with configurable associativity.
 
 You are welcome to implement a more performant cache if you desire.
-Your cache should be at least 512 bytes; if you wish to increase the size, implement the 512 bytes
+Your cache capacity should be at least 512 bytes; if you wish to increase the size, implement the 512 bytes
 cache first and upgrade later.
 Use the SRAMs that are available in
 
 `/home/ff/eecs151/verilog_lib/SRAM.v`
 
-for your data and tag arrays. Make sure to `git pull` if this file is not included in your YAML files.
-
+for your data and tag arrays. 
 
 The pin descriptions for these SRAMs are as follows:
 
@@ -97,7 +96,7 @@ Below find a description of each signal in `Cache.v`:
 | `mem_resp_data`        | Main memory response data to the cache (128 bits/4 words).
 |                        |
 
-To design your cache, start by outlining where the SRAMs should go. You should include an SRAM
+To design your cache, start by outlining where the SRAMs should go. A recommended implementation is to include an SRAM
 per way for data, and a separate SRAM per way for the tags. Depending on your implementation, you
 may want to implement the valid bits in flip flops or as part of the tag SRAM.
 
@@ -121,9 +120,9 @@ simOptions variable in the `sim-rtl.yml` file. To use your cache, comment out `+
 Take note of the cycle counts for both, you should see the cycle counts increase when you use the cache.
 
 ### 4 Checkpoint 3 Deliverables
-*Checkoff due: Nov 25 (Friday), 2022*
+*Checkoff due: Apr 25th (Tuesday), 2023*
 
-1. Show that all of the assembly tests and final pass using the cache
+1. Show that all of the assembly and benchmark tests and final pass using the cache
 
 2. Show the block diagram of your cache
 
