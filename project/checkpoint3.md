@@ -101,9 +101,9 @@ per way for data, and a separate SRAM per way for the tags. Depending on your im
 may want to implement the valid bits in flip flops or as part of the tag SRAM.
 
 Next you should develop a state machine that covers all the events that your cache needs to handle
-for both hits and misses. You can do it without an explicit state machine, but you will suffer. Keep in
+for both hits and misses. It is possible to do it without an explicit state machine, but it can be more difficult. Keep in
 mind you will need to write any valid data back to main memory before you start refilling the cache (you
-can use a write-back or a write-through policy). Both of these transactions will take multiple cycles.
+can use either a write-back or a write-through policy). Both of these transactions will take multiple cycles.
 
 ### 3 Changes to the flow for this checkpoint
 You should now be able to pass the `bmark` test. The test suite includes many C programs that do
@@ -151,3 +151,4 @@ Modified By:
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
 - Dima Nikiforov (2022)
 - Richard Yan (2022)
+- Chengyi Lux Zhang (2023)
