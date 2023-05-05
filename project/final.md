@@ -1,9 +1,9 @@
-# EECS 151/251A ASIC Project Specification: Final Deliverables
+# EECS 151/251A ASIC Project Specification: Checkpoint 4
 <p align="center">
-Prof. Sophia Shao
+Prof. John Wawrzynek
 </p>
 <p align="center">
-TAs (ASIC): Erik Anderson, Roger Hsiao, Hansung Kim, Richard Yan
+TA (ASIC): Chengyi Lux Zhang
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -16,7 +16,7 @@ College of Engineering, University of California, Berkeley
 
 ## Final Project Deliverables
 
-<b>***The project report is due at 11:59 pm on Monday, Dec. 12. </b>
+<b>***The project report is due at 11:59 pm on Monday, May. 8. </b>
 
 By now you should have designed a fully-functional processor from scratch! Your design should pass all assembly tests at your reported maximum frequency. Your
 design should also pass all of the benchmark tests in at your reported maximum frequency, and you

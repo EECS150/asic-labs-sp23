@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Checkpoint 4
 <p align="center">
-Prof. Sophia Shao
+Prof. John Wawrzynek
 </p>
 <p align="center">
-TAs (ASIC): Erik Anderson, Roger Hsiao, Hansung Kim, Richard Yan
+TA (ASIC): Chengyi Lux Zhang
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
